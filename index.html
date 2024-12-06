@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Diário de Bordo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Meu Diário de Bordo</h1>
+        <div id="form">
+            <input type="text" id="title" placeholder="Título">
+            <textarea id="content" placeholder="Conteúdo"></textarea>
+            <button onclick="addEntry()">Adicionar Entrada</button>
+        </div>
+        <h2>Entradas</h2>
+        <div id="entries"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
